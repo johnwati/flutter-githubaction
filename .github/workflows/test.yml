@@ -9,7 +9,7 @@ env:
   APP_CENTER_TOKEN: d16151814f9625db15cc3eec8409ab587f34be26 
   APP_NAME: ${{ 'test'  }}  
   TESTING_GROUP: ${{  'ENV_TEST'  }} 
-  UPLOAD_FILE: ${{ 'android/app/build/outputs/apk/app-release.apk'  }}  
+  UPLOAD_FILE: ${{ 'build/app/outputs/apk/debug/app-arm64-v8a-debug.apk'  }}  
   
 
 jobs:
