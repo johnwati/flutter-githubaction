@@ -1,9 +1,8 @@
 name: Deploy-Android-TEST 
 
-on:
-  push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+([0-9]+)'
+on: push
+#     tags:
+#       - 'v[0-9]+.[0-9]+.[0-9]+([0-9]+)'
     
 env:
   APP_CENTER_TOKEN: d16151814f9625db15cc3eec8409ab587f34be26 
