@@ -58,7 +58,7 @@ jobs:
         # Required mail subject:
         subject: Github Actions job result
         # Required recipients' addresses:
-        to: john.wati.ke@gmail.com
+        to: info@mobifarm.savoir.co.ke
         # Required sender full name (address can be skipped):
         from: Luke Skywalker # <user@example.com>
         # Optional whether this connection use TLS (default is true if server_port is 465)
@@ -68,13 +68,13 @@ jobs:
         # Optional HTML body read from file:
         html_body: file://README.html
         # Optional carbon copy recipients:
-        cc: kyloren@example.com,leia@example.com
+        cc: info@mobifarm.savoir.co.ke
         # Optional blind carbon copy recipients:
-        bcc: r2d2@example.com,hansolo@example.com
+        bcc: info@mobifarm.savoir.co.ke
         # Optional recipient of the email response:
-        reply_to: luke@example.com
+        reply_to: info@mobifarm.savoir.co.ke
         # Optional Message ID this message is replying to:
-        in_reply_to: <random-luke@example.com>
+        in_reply_to: <info@mobifarm.savoir.co.ke>
         # Optional unsigned/invalid certificates allowance:
         ignore_cert: true
         # Optional converting Markdown to HTML (set content_type to text/html too):
