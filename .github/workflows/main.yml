@@ -20,11 +20,12 @@ jobs:
 #       with:
 #         artifacts: "build/app/outputs/apk/debug/*.apk"
 #         token: ${{ secrets.TOKEN }}
-    - name: App Center Distribute
-      uses: devussy/AppCenter-Distribute-Github-Action@v1.0.5
+    - name: upload artefact to App Center
+      uses: wzieba/AppCenter-Github-Action@v1
       with:
-        app: devussy/SampleApp
+        appName: wzieba/Sample-App
         token: ${{secrets.TOKEN}}
-        group: TargetGroup
+        group: Testers
         file: build/app/outputs/apk/debug/*.apk
-        silent: false
+        notifyTesters: true
+        debug: false
